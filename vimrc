@@ -10,6 +10,7 @@ colorscheme twilight256
 set laststatus=2
 set expandtab
 set softtabstop=4
+set backspace=indent,eol,start
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdTree'
@@ -20,6 +21,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-scripts/OmniCppComplete'
+Plugin 'vim-scripts/twilight256.vim'
 
 map <F3> :NERDTreeToggle<CR>
 map <C-n> :bn<CR>
