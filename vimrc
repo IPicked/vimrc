@@ -9,6 +9,7 @@ set t_Co=256
 colorscheme twilight256
 set laststatus=2
 set expandtab
+set shiftwidth=4
 set softtabstop=4
 set backspace=indent,eol,start
 
@@ -29,6 +30,9 @@ map <C-p> :bp<CR>
 map <C-w> :w!<CR>
 map <C-b> :enew<CR>
 map <C-d> :bd<CR>
+map <C-x> :bdelete<CR>
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
 
 "Enable list of buffer
 let g:airline#extensions#tabline#enabled = 1
